@@ -29,9 +29,10 @@ Flatdango is a mini web application that allows users to view available movies a
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/flatdango.git
+   git clone https://github.com/FaithChepkemoi/flatdango.git
 
 2. **Navigate into the directory**:
   ```bash
   cd flatdango
-3. 
+3. **Install JSON Server** (if you haven't already):
+npm install -g json-server

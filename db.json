@@ -1,0 +1,65 @@
+{
+    "films": [
+      {
+        "id": "1",
+        "title": "Black Panther",
+        "runtime": "108",
+        "capacity": 30,
+        "showtime": "04:00PM",
+        "tickets_sold": 27,
+        "description": " Black Panther follows T'Challa as he defends Wakanda from a vengeful foe, blending action with cultural and social themes.",
+        "poster": "./images/black panther.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Manos: The Hands Of Fate",
+        "runtime": "118",
+        "capacity": 50,
+        "showtime": "06:45PM",
+        "tickets_sold": 44,
+        "description": "A family gets lost on the road and stumbles upon a hidden cult.",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Manos: The Hands Of Fate",
+        "runtime": "118",
+        "capacity": 50,
+        "showtime": "06:45PM",
+        "tickets_sold": 44,
+        "description": "A family gets lost on the road and stumbles upon a hidden cult.",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Manos: The Hands Of Fate",
+        "runtime": "118",
+        "capacity": 50,
+        "showtime": "06:45PM",
+        "tickets_sold": 44,
+        "description": "A family gets lost on the road and stumbles upon a hidden cult.",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+      },
+      {
+        "id": "5",
+        "title": "Manos: The Hands Of Fate",
+        "runtime": "118",
+        "capacity": 50,
+        "showtime": "06:45PM",
+        "tickets_sold": 44,
+        "description": "A family gets lost on the road and stumbles upon a hidden cult.",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+      },
+      {
+        "id": "6",
+        "title": "Manos: The Hands Of Fate",
+        "runtime": "118",
+        "capacity": 50,
+        "showtime": "06:45PM",
+        "tickets_sold": 44,
+        "description": "A family gets lost on the road and stumbles upon a hidden cult.",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+      }
+    ]
+  }
+  

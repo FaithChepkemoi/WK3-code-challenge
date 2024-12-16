@@ -58,11 +58,10 @@ function purchaseTicket(movie) {
         },
         body: JSON.stringify({ tickets_sold: newTicketsSold })
     })
+    .then(response=> response.json())
+    .then(updatedMovie=>displayMovieDetails(updatedMovie));
 }
-
-
-
 
     }
 
-)
+);

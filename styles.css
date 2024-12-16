@@ -7,8 +7,8 @@ body {
 
 h1 {
    text-align:center;
-   color:black;
-   font-size:1.2em;
+   color:#007BFF;
+   font-size:1.5em;
    margin-bottom:20px;
 }
 
@@ -60,6 +60,9 @@ h1 {
     font-size: 1.8em;
     color: #007BFF;
     margin: 10px 0; /* Reduced margin above and below the title */
+}
+#container h2{
+    color: #007BFF;
 }
 
 #movie-details p {

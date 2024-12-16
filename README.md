@@ -37,6 +37,7 @@ Flatdango is a mini web application that allows users to view available movies a
 
 3. **Start the JSON Server**:
 Make sure you are in the project directory and run:
+
      ```bash
          json-server --watch db.json
 

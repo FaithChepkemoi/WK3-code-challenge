@@ -14,8 +14,15 @@ document.addEventListener('DOMContentLoaded',() => {
                 filmsList.appendChild('li');
             });
             displayMovieDetails(movies[0]); // Display first movie by default
-        })
+        });
 
+    }
+
+    function displayMovieDetails(movie){
+        document.getElementById('poster') .src = movie.poster;
+        document.getElementById('title').innerText= movie.title;
+        document.getElementById('runtime').innerText=`Runtime: ${movie.runtime} minutes`;
+        document.getElementById('showtime').innerText=`Showtime: ${movie.showtime}`;
     }
 }
 )

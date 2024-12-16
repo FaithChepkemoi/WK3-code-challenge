@@ -56,14 +56,15 @@ Flatdango is a mini web application that allows users to view available movies a
 ## File Structure
 flatdango/
 │
-├── index.html # Main HTML file
-├── styles.css # CSS file for styling
-├── script.js # JavaScript file for logic
-├── db.json # JSON file for mock server data
-└── images/ # Folder for movie poster images
-├── black_panther.jpg
-├── other_image.jpg
-└── ... # Other images as needed
+├── index.html # Main HTML file  
+├── styles.css # CSS file for styling  
+├── script.js # JavaScript file for logic  
+├── db.json # JSON file for mock server data  
+└── images/ # Folder for movie poster images  
+├── black_panther.jpg  
+├── other_image.jpg  
+└── ... # Other images as needed  
+
 
 
 ## Contributing
@@ -71,13 +72,24 @@ flatdango/
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 1. Fork the repository.
-2. Create your feature branch:
+2. Create your feature branch:  
+
   ```bash
-      git checkout -b feature/YourFeature
+      git checkout -b feature/YourFeature    
+
 3. Commit your changes:
    ```bash
      git commit -m 'Add some feature'
+
 4. Push to the branch:
+   ```bash
+      git push origin feature/YourFeature  
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 

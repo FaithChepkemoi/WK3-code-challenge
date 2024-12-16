@@ -11,12 +11,12 @@ body {
     background: white;
 }
 
-img {
-    width: 150px; /* Set the desired width */
-    height: 150px; /* Set the same value for height */
-    border-radius: 50%; /* Makes the image circular */
+#movie-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
-
 
 #films {
     list-style-type: none;

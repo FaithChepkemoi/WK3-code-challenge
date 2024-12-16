@@ -48,6 +48,21 @@ document.addEventListener('DOMContentLoaded',() => {
                         document.querySelector(`li.sold-out`).classList.remove('sold-out');
                        }
    }     
+
+function purchaseTicket(movie) {
+    const newTicketsSold=movie.tickets_sold + 1;
+    fetch(`http://localhost:3000/films/${movie.id}`, {
+        method: 'PATCH',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ tickets_sold: newTicketsSold })
+    })
+}
+
+
+
+
     }
 
 )

@@ -35,35 +35,12 @@ Flatdango is a mini web application that allows users to view available movies a
   ```bash
   cd flatdango
 
+3. **Start the JSON Server**:
+Make sure you are in the project directory and run:
+     ```bash
+         json-server --watch db.json
 
-3. **Install JSON Server**: (if you haven't already):
-       
-       ```bash
-      npm install -g json-server
-
-Start the JSON Server:
-
-json-server --watch db.json
-
-This will start the server at http://localhost:3000.
-
-Open the application:
-
-Open index.html in your web browser to view the application.
-
-
-3. **Install JSON Server** (if you haven't already):
-
-    ```bash
-    npm install -g json-server
-
-4. **Start the JSON Server**:
-
-   ```bash
-    json-server --watch db.json
-
-
-This will start the server at `http://localhost:3000`.
+ This will start the server at `http://localhost:3000`.
 
 4. **Open the application**:
 Open `index.html` in your web browser to view the application.
@@ -76,14 +53,4 @@ Open `index.html` in your web browser to view the application.
 4. The number of available tickets will update in real-time.
 
 ## File Structure
-flatdango/
-│
-├── index.html # Main HTML file
-├── styles.css # CSS file for styling
-├── script.js # JavaScript file for logic
-├── db.json # JSON file for mock server data
-└── images/ # Folder for movie poster images
-├── black_panther.jpg
-├── other_image.jpg
-└── ... # Other images as needed
 

@@ -72,9 +72,8 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 1. Fork the repository.
 2. Create your feature branch:  
-
-  ```bash
-      git checkout -b feature/YourFeature   
+            ```bash
+              git checkout -b feature/YourFeature   
 
 3. Commit your changes.  
       ```bash
@@ -87,7 +86,7 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 5. Open a pull request.  
 
 
- ## License  
+ ## License 
   This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 

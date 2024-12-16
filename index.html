@@ -8,20 +8,28 @@
 </head>
 <body>
     <h1>Flatdango-Movie Ticket Purchase Application</h1>
-    <div id="movie-details">
-        <diV class="image-container">
-        <img id="poster" src="" alt="Movie Poster">
-        </diV>
-        <h2 id="title"></h2>
-        <p id="runtime"></p>
-        <p id="showtime"></p>
-        <button id="buy-ticket">Buy Ticket</button>
-        <p id="available-tickets"></p>
+    
+    <div class="container"> <!-- Parent container for flex layout -->
+        <div id="movie-list"> <!-- Wrapper for movie list -->
+            <h2>Available Movies</h2>
+            <ul id="films"></ul> <!-- Movie list will be populated here -->
+        </div>
+
+        <div id="movie-details"> <!-- Wrapper for movie details -->
+            <div class="image-container">
+                <img id="poster" src="" alt="Movie Poster">
+            </div>
+            <h2 id="title"></h2>
+            <p id="runtime"></p>
+            <p id="showtime"></p>
+            <button id="buy-ticket">Buy Ticket</button>
+            <p id="available-tickets"></p>
+        </div>
     </div>
-    <h2>Available Movies:</h2>
-        
-    <p>Click the movie you want for more details:</p>
-    <ul id="films"></ul>
+    <footer>
+        <p>&copy; 2024 Faith Chepkemoi. All rights reserved.</p>
+        <p>This project is licensed under the MIT License.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

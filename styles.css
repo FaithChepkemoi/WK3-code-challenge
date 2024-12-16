@@ -1,32 +1,77 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4; */
+    background-color: rgb(100, 237, 232);
     margin: 0;
     padding: 20px;
 }
 
 #movie-details {
-    border: 1px solid #ccc;
-    padding: 20px;
-    background: white;
-}
-
-#movie-details img {
-    max-width: 100%;
-    height: auto;
+    width: 75%; /* Set width for movie details */
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 20px; /* Inner padding */
+    background: #fff; /* White background */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-left: 20px; /* Space between movie list and details */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-#films {
-    list-style-type: none;
-    padding: 0;
+
+.image-container {
+    width: 900px;   /* Fixed width for the container */
+    height: 400px;  /* Fixed height for the container */
+    overflow: hidden;/* Hide overflow if image is larger */
+
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    padding-left: 10%;
 }
 
-.film.item {
-    margin: 10px 0;
+.image-container img {
+    max-width: 100%;      /* Responsive image size (will not exceed container) */
+    max-height: 100%;     /* Responsive image size (will not exceed container) */
+    
+    object-fit: cover;     /* Cover will fill the container while maintaining aspect ratio */
 }
 
-.sold-out {
-    color: red;
+h1 {
+   padding-left:32%;
+   color:#007BFF;
+   font-size:2.5em;
+   margin-bottom:20px;
+}
+
+#movie-details h2 {
+   font-size:1.8em;
+   color:#007BFF;
+}
+h2 {
+    font-size:1.8em;
+    color:#007BFF;
+}
+
+#movie-details p {
+   font-size:1.2em;
+   color:#555;
+}
+
+#buy-ticket {
+    background-color: #007BFF; /* Bootstrap primary color (blue) */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for top/bottom and left/right */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 10px auto; /* Center horizontally and add vertical spacing */
+    width: 150px; /* Set a specific width for the button */
+    display: block; /* Make the button a block element for centering */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#buy-ticket:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }

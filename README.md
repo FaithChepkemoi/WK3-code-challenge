@@ -53,3 +53,31 @@ Flatdango is a mini web application that allows users to view available movies a
 
 4. The number of available tickets will update in real-time.
 
+## File Structure
+flatdango/
+│
+├── index.html # Main HTML file
+├── styles.css # CSS file for styling
+├── script.js # JavaScript file for logic
+├── db.json # JSON file for mock server data
+└── images/ # Folder for movie poster images
+├── black_panther.jpg
+├── other_image.jpg
+└── ... # Other images as needed
+
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
+
+1. Fork the repository.
+2. Create your feature branch:
+  ```bash
+      git checkout -b feature/YourFeature
+3. Commit your changes:
+   ```bash
+     git commit -m 'Add some feature'
+4. Push to the branch:
+
+
+

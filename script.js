@@ -27,8 +27,27 @@ document.addEventListener('DOMContentLoaded',() => {
    const availableTickets= movie.capacity - movie.tickets_sold;
        document.getElementById('available-tickets').innerText = `Available tickets: ${availableTickets}`;
 
-
+   const buyTicketButton = document.getElementById('buy-ticket');
+   buyTicketButton.dissabled = availableTickets <=0;  // Disable button if sold out
+             
+                      buyTicketButton.onclick= () =>{
+                        if (availableTickets > 0){
+                            purchaseTicket(movie);
+                        }
+                        else{
+                            alert('Sold Out!');
+                        }
+                      };
+                      if (availableTickets <= 0){
+                        buyTicketButton.innerText= "Sold Out";
+                        buyTicketButton.dissabled = true;
+                        document.querySelector(`li: contains (${movie.title})`).classList.add('sold out');
+                      }
+                       else{
+                        buyTicketButton.innerText= "Buy Ticket";
+                        document.querySelector(`li.sold-out`).classList.remove('sold-out');
+                       }
    }     
     }
-}
+
 )

@@ -23,6 +23,12 @@ document.addEventListener('DOMContentLoaded',() => {
         document.getElementById('title').innerText= movie.title;
         document.getElementById('runtime').innerText=`Runtime: ${movie.runtime} minutes`;
         document.getElementById('showtime').innerText=`Showtime: ${movie.showtime}`;
+
+   const availableTickets= movie.capacity - movie.tickets_sold;
+       document.getElementById('available-tickets').innerText = `Available tickets: ${availableTickets}`;
+
+
+   }     
     }
 }
 )

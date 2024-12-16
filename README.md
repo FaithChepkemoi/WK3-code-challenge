@@ -32,26 +32,24 @@ Flatdango is a mini web application that allows users to view available movies a
    git clone https://github.com/FaithChepkemoi/flatdango.git
 
 2. **Navigate into the directory**:
-  ```bash
-  cd flatdango
+    ```bash
+        cd flatdango
 
-3. **Start the JSON Server**:
-Make sure you are in the project directory and run:
+3. **Start the JSON server**:
+  make sure you are in the project directory and run:
+   ```bash
+       json-sever --watch db.json
+  This will start the server at http://localhost:3000.
 
-     ```bash
-         json-server --watch db.json
+4. **Open the appication**:  
+   Open index.html in your web browser to view the application.
 
- This will start the server at `http://localhost:3000`.
-
-4. **Open the application**:
-Open `index.html` in your web browser to view the application.
-
-## Usage
-
+ ## Usage
 1. When the application loads, you will see a list of movies on the left side.
-2. Click on any movie title to view its details.
-3. If tickets are available, click the "Buy Ticket" button to purchase a ticket.
-4. The number of available tickets will update in real-time.
 
-## File Structure
+2. Click on any movie title to view its details.
+
+3. If tickets are available, click the "Buy Ticket" button to purchase a ticket.
+
+4. The number of available tickets will update in real-time.
 

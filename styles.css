@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#movie-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: white;
+}
+
+img {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the same value for height */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+
+#films {
+    list-style-type: none;
+    padding: 0;
+}
+
+.film.item {
+    margin: 10px 0;
+}
+
+.sold-out {
+    color: red;
+}

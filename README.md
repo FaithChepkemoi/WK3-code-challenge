@@ -70,7 +70,7 @@ flatdango/
 
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
-1. Fork the repository.
+1. **Fork the repository**.
 2. **Run the server locally using the following command**
    ~~~bash
     json-server --watch db.json
@@ -79,10 +79,10 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 ~~~bash
 cd week-3-code-challenge
 ~~~
-4. Open index.html in your web browser   
+4. **Open index.html in your web browser**   
       
         
-5. Open a pull request.  
+5. **Open a pull request**.  
 
 
  ## License 

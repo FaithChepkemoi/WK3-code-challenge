@@ -71,20 +71,15 @@ flatdango/
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 1. Fork the repository.
-2. Create your feature branch:  
-            ```bash  
-
-              git checkout -b feature/YourFeature   
-
-3. Commit your changes.  
-      ```bash
-     git commit -m 'Add some feature'  
-
-
-4. Push to the branch:  
-        ```bash
-        
-       git push origin feature/YourFeatue    
+2. **Run the server locally using the following command**
+   ~~~bash
+    json-server --watch db.json
+   ~~~
+3. **Navigate to the project directory**
+~~~bash
+cd week-3-code-challenge
+~~~
+4. Open index.html in your web browser   
       
         
 5. Open a pull request.  

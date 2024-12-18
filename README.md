@@ -83,7 +83,7 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 4. Push to the branch:  
         ```bash
-      git push origin feature/YourFeature     
+       git push origin feature/YourFeatue    
       
         
 5. Open a pull request.  
